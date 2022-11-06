@@ -21,7 +21,7 @@ As part of the BeCode Brussels 2022/2023 training and for personnal purpose
 - element:empty {}
 - API fetch
 - DOM manipulation with data
-- Analizing functions & Loop functions
+- Analyzing functions & Loop functions
 - Storing data in Arrays
 - Playing with different select event listeners
 
