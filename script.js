@@ -6,7 +6,7 @@ let theability = document.querySelector(".ability")
 
 let storingArray = []
 
-// Function to transform select in selectize (impossible to querySelect)
+// // Function to transform select in selectize (impossible to querySelect)
 //  $(document).ready(function () {
 //         $('select').selectize({
 //             sortField: 'text'

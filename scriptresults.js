@@ -227,7 +227,7 @@ else if (a0res > 6) {
     myresults[0].style.backgroundColor="#6FDB59"
 }
 else if (a0res == 6) {
-    myresults[0].style.backgroundColor="#F07917"
+    myresults[0].style.backgroundColor="#C03131"
 }
 else if (a0res < 4) {
     myresults[0].style.backgroundColor="#8F2424"
@@ -271,7 +271,7 @@ else if (a1res > 6) {
     myresults[1].style.backgroundColor="#6FDB59"
 }
 else if (a1res == 6) {
-    myresults[1].style.backgroundColor="#F07917"
+    myresults[1].style.backgroundColor="#C03131"
 }
 else if (a1res < 4) {
     myresults[1].style.backgroundColor="#8F2424"
@@ -314,7 +314,7 @@ else if (a2res > 6) {
     myresults[2].style.backgroundColor="#6FDB59"
 }
 else if (a2res == 6) {
-    myresults[2].style.backgroundColor="#F07917"
+    myresults[2].style.backgroundColor="#C03131"
 }
 else if (a2res < 4) {
     myresults[2].style.backgroundColor="#8F2424"
@@ -358,7 +358,7 @@ else if (a3res > 6) {
     myresults[3].style.backgroundColor="#6FDB59"
 }
 else if (a3res == 6) {
-    myresults[3].style.backgroundColor="#F07917"
+    myresults[3].style.backgroundColor="#C03131"
 }
 else if (a3res < 4) {
     myresults[3].style.backgroundColor="#8F2424"
@@ -401,7 +401,7 @@ else if (a4res > 6) {
     myresults[4].style.backgroundColor="#6FDB59"
 }
 else if (a4res == 6) {
-    myresults[4].style.backgroundColor="#F07917"
+    myresults[4].style.backgroundColor="#C03131"
 }
 else if (a4res < 4) {
     myresults[4].style.backgroundColor="#8F2424"
@@ -445,7 +445,7 @@ else if (a5res > 6) {
     myresults[5].style.backgroundColor="#6FDB59"
 }
 else if (a5res == 6) {
-    myresults[5].style.backgroundColor="#F07917"
+    myresults[5].style.backgroundColor="#C03131"
 }
 else if (a5res < 4) {
     myresults[5].style.backgroundColor="#8F2424"
@@ -489,7 +489,7 @@ else if (a6res > 6) {
     myresults[6].style.backgroundColor="#6FDB59"
 }
 else if (a6res == 6) {
-    myresults[6].style.backgroundColor="#F07917"
+    myresults[6].style.backgroundColor="#C03131"
 }
 else if (a6res < 4) {
     myresults[6].style.backgroundColor="#8F2424"
@@ -533,7 +533,7 @@ else if (a7res > 6) {
     myresults[7].style.backgroundColor="#6FDB59"
 }
 else if (a7res == 6) {
-    myresults[7].style.backgroundColor="#F07917"
+    myresults[7].style.backgroundColor="#C03131"
 }
 else if (a7res < 4) {
     myresults[7].style.backgroundColor="#8F2424"
@@ -577,7 +577,7 @@ else if (a8res > 6) {
     myresults[8].style.backgroundColor="#6FDB59"
 }
 else if (a8res == 6) {
-    myresults[8].style.backgroundColor="#F07917"
+    myresults[8].style.backgroundColor="#C03131"
 }
 else if (a8res < 4) {
     myresults[8].style.backgroundColor="#8F2424"
@@ -620,7 +620,7 @@ else if (a9res > 6) {
     myresults[9].style.backgroundColor="#6FDB59"
 }
 else if (a9res == 6) {
-    myresults[9].style.backgroundColor="#F07917"
+    myresults[9].style.backgroundColor="#C03131"
 }
 else if (a9res < 4) {
     myresults[9].style.backgroundColor="#8F2424"
@@ -663,7 +663,7 @@ else if (a10res > 6) {
     myresults[10].style.backgroundColor="#6FDB59"
 }
 else if (a10res == 6) {
-    myresults[10].style.backgroundColor="#F07917"
+    myresults[10].style.backgroundColor="#C03131"
 }
 else if (a10res < 4) {
     myresults[10].style.backgroundColor="#8F2424"
@@ -707,7 +707,7 @@ else if (a11res > 6) {
     myresults[11].style.backgroundColor="#6FDB59"
 }
 else if (a11res == 6) {
-    myresults[11].style.backgroundColor="#F07917"
+    myresults[11].style.backgroundColor="#C03131"
 }
 else if (a11res < 4) {
     myresults[11].style.backgroundColor="#8F2424"
@@ -750,7 +750,7 @@ else if (a12res > 6) {
     myresults[12].style.backgroundColor="#6FDB59"
 }
 else if (a12res == 6) {
-    myresults[12].style.backgroundColor="#F07917"
+    myresults[12].style.backgroundColor="#C03131"
 }
 else if (a12res < 4) {
     myresults[12].style.backgroundColor="#8F2424"
@@ -794,7 +794,7 @@ else if (a13res > 6) {
     myresults[13].style.backgroundColor="#6FDB59"
 }
 else if (a13res == 6) {
-    myresults[13].style.backgroundColor="#F07917"
+    myresults[13].style.backgroundColor="#C03131"
 }
 else if (a13res < 4) {
     myresults[13].style.backgroundColor="#8F2424"
@@ -838,7 +838,7 @@ else if (a14res > 6) {
     myresults[14].style.backgroundColor="#6FDB59"
 }
 else if (a14res == 6) {
-    myresults[14].style.backgroundColor="#F07917"
+    myresults[14].style.backgroundColor="#C03131"
 }
 else if (a14res < 4) {
     myresults[14].style.backgroundColor="#8F2424"
@@ -881,7 +881,7 @@ else if (a15res > 6) {
     myresults[15].style.backgroundColor="#6FDB59"
 }
 else if (a15res == 6) {
-    myresults[15].style.backgroundColor="#F07917"
+    myresults[15].style.backgroundColor="#C03131"
 }
 else if (a15res < 4) {
     myresults[15].style.backgroundColor="#8F2424"
@@ -925,7 +925,7 @@ else if (a16res > 6) {
     myresults[16].style.backgroundColor="#6FDB59"
 }
 else if (a16res == 6) {
-    myresults[16].style.backgroundColor="#F07917"
+    myresults[16].style.backgroundColor="#C03131"
 }
 else if (a16res < 4) {
     myresults[16].style.backgroundColor="#8F2424"

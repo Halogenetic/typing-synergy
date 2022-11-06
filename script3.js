@@ -6,12 +6,12 @@ let theability_3 = document.querySelector(".ability_3")
 
 let storingArray_3 = []
 
-// Function to transform select in selectize (impossible to querySelect)
-//  $(document).ready(function () {
-//         $('select').selectize({
-//             sortField: 'text'
-//         });
-//     });
+
+
+
+
+
+
 
 // Function to create options (pokemons names + index in value) with an API
 const optionlist_3 = () => {
