@@ -157,6 +157,11 @@ let c_4 = 0
 let d_4 = 0
 let duotypeArray_4 = []
 
+// Delete values of all types
+typingcells_4.forEach(cell => {
+    cell.innerHTML = ''
+    })
+
 const fullTyping_4 = () => {
     if (theselect_4.value !== "") {
     fetch("https://pokeapi.co/api/v2/pokemon/"+theselect_4.value)
@@ -469,7 +474,11 @@ const fullTyping_4 = () => {
             } 
         }    
         )
-} }
+}   else if (theselect_4.value == "") {
+    typingcells_4.forEach(cell => {
+        cell.style.backgroundColor = "white"
+    })}
+}
     
 fullTyping_4();
 

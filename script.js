@@ -157,6 +157,11 @@ let c = 0
 let d = 0
 let duotypeArray = []
 
+// Delete values of all types
+typingcells.forEach(cell => {
+    cell.innerHTML = ''
+    })
+
 const fullTyping = () => {
     if (theselect.value !== "") {
     fetch("https://pokeapi.co/api/v2/pokemon/"+theselect.value)
@@ -464,12 +469,16 @@ const fullTyping = () => {
                     else if (cell.textContent.includes("5.2")) {
                         cell.style.backgroundColor = "#8F2424"
                     }
-
+                    
                 })
             } 
         }    
         )
-} }
+}   else if (theselect.value == "") {
+    typingcells.forEach(cell => {
+        cell.style.backgroundColor = "white"
+    })}
+}
     
 fullTyping();
 

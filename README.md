@@ -1,4 +1,4 @@
-# Typîng Synergy
+# Typing Synergy
 
 ## Author :
 Halogenetic
