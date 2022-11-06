@@ -4,6 +4,7 @@ let i_4 = 1;
 let theselect_4 = document.querySelector(".selectpoke_4")
 let theability_4 = document.querySelector(".ability_4")
 
+let storingArray_4 = []
 
 // Function to transform select in selectize (impossible to querySelect)
 //  $(document).ready(function () {
@@ -134,7 +135,7 @@ displayImage_4();
 // Create the typing
 let typingArray_4 = [
 [1, 2, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1],
-[1, 1, 2, 1, 1, 0.5, 0.5, 1, 1, 1, 1, 1, 2 ,1, 1, 1, 0.5],
+[1, 1, 2, 1, 1, 0.5, 0.5, 1, 1, 1, 1, 1, 1, 2, 1, 1, 0.5],
 [1, 0.5, 1, 1, 0, 2, 0.5, 1, 1, 1, 1, 0.5, 2, 1, 2, 1, 1],
 [1, 0.5, 1, 0.5, 2, 1, 0.5, 1, 1, 1, 1, 0.5, 1, 2, 1, 1, 1],
 [1, 1, 1, 0.5, 1, 0.5, 1, 1, 1, 1, 2, 2, 0, 1, 2, 1, 1],
@@ -429,6 +430,12 @@ const fullTyping_4 = () => {
                 }
 
             }
+            storingArray_4 = []
+            typingcells_4.forEach(cell => {
+                storingArray_4.push(cell.textContent)
+            });
+
+            fkinres();
 
             {
                 typingcells_4.forEach(cell => {
@@ -477,6 +484,7 @@ const fullTyping_4 = () => {
 }   else if (theselect_4.value == "") {
     typingcells_4.forEach(cell => {
         cell.style.backgroundColor = "white"
+        storingArray_4 = []
     })}
 }
     
