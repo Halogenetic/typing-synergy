@@ -1,0 +1,469 @@
+<!DOCTYPEtml>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/js/standalone/selectize.min.js" integrity="sha256-+C0A5Ilqmu4QcSPxrlGpaZxJ04VjsRjKu+G82kl5UJk=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/css/selectize.bootstrap3.min.css" integrity="sha256-ze/OEYGcFbPRmvCnrSeKbRTtjG4vGLHXgOqsyLFTRjg=" crossorigin="anonymous" /> -->
+
+
+</head>
+<body>
+    <div class="container flexrow">
+        <div class="box flexcol">
+            <div class="typelist flexrow">
+                <div class="box1"></div>
+                <div class="types flexrow">
+                    <div class="type" style="background-color: #b3b3b2 ;">Normal</div>
+                    <div class="type" style="background-color: #C03131 ;">Fighting</div>
+                    <div class="type" style="background-color: #98BDBF ;">Flying</div>
+                    <div class="type" style="background-color: #AB55A2 ;">Poison</div>
+                    <div class="type" style="background-color: #CEBB6D ;">Ground</div>
+                    <div class="type" style="background-color: #BC9C5B ;">Rock</div>
+                    <div class="type" style="background-color: #BCD059 ;">Bug</div>
+                    <div class="type" style="background-color: #5E7289 ;">Ghost</div>
+                    <div class="type" style="background-color: #AFB4BC ;">Steel</div>
+                    <div class="type" style="background-color: #FB7A18 ;">Fire</div>
+                    <div class="type" style="background-color: #37B0BD ;">Water</div>
+                    <div class="type" style="background-color: #6FDB59 ;">Grass</div>
+                    <div class="type" style="background-color: #E0C519 ;">Electric</div>
+                    <div class="type" style="background-color: #EC6CEC ;">Psychic</div>
+                    <div class="type" style="background-color: #9BDED9 ;">Ice</div>
+                    <div class="type" style="background-color: #729DD0 ;">Dragon</div>
+                    <div class="type" style="background-color: #656565 ;">Dark</div>
+                </div>
+            </div>
+            <div class="pokemons">
+                <div class="pokeone flexrow">
+                    <div class="imgbox flexrow">
+                        <img class="icones" src="./images/imicon.png">
+                        <div class="duotype flexcol">
+                            <div class="typez normal" style="background-color: #b3b3b2 ;"></div>
+                            <div class="typez fighting" style="background-color: #C03131 ;"></div>
+                            <div class="typez flying" style="background-color: #98BDBF ;"></div>
+                            <div class="typez poison" style="background-color: #AB55A2 ;"></div>
+                            <div class="typez ground" style="background-color: #CEBB6D ;"></div>
+                            <div class="typez rock" style="background-color: #BC9C5B ;"></div>
+                            <div class="typez bug" style="background-color: #BCD059 ;"></div>
+                            <div class="typez ghost" style="background-color: #5E7289 ;"></div>
+                            <div class="typez steel" style="background-color: #AFB4BC ;"></div>
+                            <div class="typez fire" style="background-color: #FB7A18 ;"></div>
+                            <div class="typez water" style="background-color: #37B0BD ;"></div>
+                            <div class="typez grass" style="background-color: #6FDB59 ;"></div>
+                            <div class="typez electric" style="background-color: #E0C519 ;"></div>
+                            <div class="typez psychic" style="background-color: #EC6CEC ;"></div>
+                            <div class="typez ice" style="background-color: #9BDED9 ;"></div>
+                            <div class="typez dragon" style="background-color: #729DD0 ;"></div>
+                            <div class="typez dark" style="background-color: #656565 ;"></div>
+                        </div>
+                    </div>
+                    <div class="selectbox flexcol">
+                        <select name="pokemons" id="select-pokemons" placeholder="Pick a pokemon..." class="selectpoke">
+                            <option value="">None</option>
+                        </select>
+                        <select name="ability" id="" class="ability">
+                            <option value="">None</option>
+                            <option value="1">Dry Skin</option>
+                            <option value="2">Flash Fire</option>
+                            <option value="3">Heatproof</option>
+                            <option value="4">Levitate</option>
+                            <option value="5">Lightning Rod</option>
+                            <option value="6">Motor Drive</option>
+                            <option value="7">Sap Sipper</option>
+                            <option value="8">Storm Drain</option>
+                            <option value="9">Thick Fat</option>
+                            <option value="10">Volt Absorb</option>
+                            <option value="11">Water Absorb</option>
+                            <option value="12">Wonder Guard</option>
+                        </select>
+                    </div>
+                    <div class="typingbox flexrow">
+                        <div class="typing normal"></div>
+                        <div class="typing fighting"></div>
+                        <div class="typing flying"></div>
+                        <div class="typing poison"></div>
+                        <div class="typing ground"></div>
+                        <div class="typing rock"></div>
+                        <div class="typing bug"></div>
+                        <div class="typing ghost"></div>
+                        <div class="typing steel"></div>
+                        <div class="typing fire"></div>
+                        <div class="typing water"></div>
+                        <div class="typing grass"></div>
+                        <div class="typing electric"></div>
+                        <div class="typing psychic"></div>
+                        <div class="typing ice"></div>
+                        <div class="typing dragon"></div>
+                        <div class="typing dark"></div>
+                    </div>
+                </div>
+
+                <div class="pokeone flexrow">
+                    <div class="imgbox flexrow">
+                        <img class="icones_2" src="./images/imicon.png">
+                        <div class="duotype flexcol">
+                            <div class="typez_2 normal" style="background-color: #b3b3b2 ;"></div>
+                            <div class="typez_2 fighting" style="background-color: #C03131 ;"></div>
+                            <div class="typez_2 flying" style="background-color: #98BDBF ;"></div>
+                            <div class="typez_2 poison" style="background-color: #AB55A2 ;"></div>
+                            <div class="typez_2 ground" style="background-color: #CEBB6D ;"></div>
+                            <div class="typez_2 rock" style="background-color: #BC9C5B ;"></div>
+                            <div class="typez_2 bug" style="background-color: #BCD059 ;"></div>
+                            <div class="typez_2 ghost" style="background-color: #5E7289 ;"></div>
+                            <div class="typez_2 steel" style="background-color: #AFB4BC ;"></div>
+                            <div class="typez_2 fire" style="background-color: #FB7A18 ;"></div>
+                            <div class="typez_2 water" style="background-color: #37B0BD ;"></div>
+                            <div class="typez_2 grass" style="background-color: #6FDB59 ;"></div>
+                            <div class="typez_2 electric" style="background-color: #E0C519 ;"></div>
+                            <div class="typez_2 psychic" style="background-color: #EC6CEC ;"></div>
+                            <div class="typez_2 ice" style="background-color: #9BDED9 ;"></div>
+                            <div class="typez_2 dragon" style="background-color: #729DD0 ;"></div>
+                            <div class="typez_2 dark" style="background-color: #656565 ;"></div>
+                        </div>
+                    </div>
+                    <div class="selectbox flexcol">
+                        <select name="pokemons" id="select-pokemons" placeholder="Pick a pokemon..." class="selectpoke_2">
+                            <option value="">None</option>
+                        </select>
+                        <select name="ability" id="" class="ability_2">
+                            <option value="">None</option>
+                            <option value="1">Dry Skin</option>
+                            <option value="2">Flash Fire</option>
+                            <option value="3">Heatproof</option>
+                            <option value="4">Levitate</option>
+                            <option value="5">Lightning Rod</option>
+                            <option value="6">Motor Drive</option>
+                            <option value="7">Sap Sipper</option>
+                            <option value="8">Storm Drain</option>
+                            <option value="9">Thick Fat</option>
+                            <option value="10">Volt Absorb</option>
+                            <option value="11">Water Absorb</option>
+                            <option value="12">Wonder Guard</option>
+                        </select>
+                    </div>
+                    <div class="typingbox flexrow">
+                        <div class="typing_2 normal"></div>
+                        <div class="typing_2 fighting"></div>
+                        <div class="typing_2 flying"></div>
+                        <div class="typing_2 poison"></div>
+                        <div class="typing_2 ground"></div>
+                        <div class="typing_2 rock"></div>
+                        <div class="typing_2 bug"></div>
+                        <div class="typing_2 ghost"></div>
+                        <div class="typing_2 steel"></div>
+                        <div class="typing_2 fire"></div>
+                        <div class="typing_2 water"></div>
+                        <div class="typing_2 grass"></div>
+                        <div class="typing_2 electric"></div>
+                        <div class="typing_2 psychic"></div>
+                        <div class="typing_2 ice"></div>
+                        <div class="typing_2 dragon"></div>
+                        <div class="typing_2 dark"></div>
+                    </div>
+                </div>
+
+                <div class="pokeone flexrow">
+                    <div class="imgbox flexrow">
+                        <img class="icones_3" src="./images/imicon.png">
+                        <div class="duotype flexcol">
+                            <div class="typez_3 normal" style="background-color: #b3b3b2 ;"></div>
+                            <div class="typez_3 fighting" style="background-color: #C03131 ;"></div>
+                            <div class="typez_3 flying" style="background-color: #98BDBF ;"></div>
+                            <div class="typez_3 poison" style="background-color: #AB55A2 ;"></div>
+                            <div class="typez_3 ground" style="background-color: #CEBB6D ;"></div>
+                            <div class="typez_3 rock" style="background-color: #BC9C5B ;"></div>
+                            <div class="typez_3 bug" style="background-color: #BCD059 ;"></div>
+                            <div class="typez_3 ghost" style="background-color: #5E7289 ;"></div>
+                            <div class="typez_3 steel" style="background-color: #AFB4BC ;"></div>
+                            <div class="typez_3 fire" style="background-color: #FB7A18 ;"></div>
+                            <div class="typez_3 water" style="background-color: #37B0BD ;"></div>
+                            <div class="typez_3 grass" style="background-color: #6FDB59 ;"></div>
+                            <div class="typez_3 electric" style="background-color: #E0C519 ;"></div>
+                            <div class="typez_3 psychic" style="background-color: #EC6CEC ;"></div>
+                            <div class="typez_3 ice" style="background-color: #9BDED9 ;"></div>
+                            <div class="typez_3 dragon" style="background-color: #729DD0 ;"></div>
+                            <div class="typez_3 dark" style="background-color: #656565 ;"></div>
+                        </div>
+                    </div>
+                    <div class="selectbox flexcol">
+                        <select name="pokemons" id="select-pokemons" placeholder="Pick a pokemon..." class="selectpoke_3">
+                            <option value="">None</option>
+                        </select>
+                        <select name="ability" id="" class="ability_3">
+                            <option value="">None</option>
+                            <option value="1">Dry Skin</option>
+                            <option value="2">Flash Fire</option>
+                            <option value="3">Heatproof</option>
+                            <option value="4">Levitate</option>
+                            <option value="5">Lightning Rod</option>
+                            <option value="6">Motor Drive</option>
+                            <option value="7">Sap Sipper</option>
+                            <option value="8">Storm Drain</option>
+                            <option value="9">Thick Fat</option>
+                            <option value="10">Volt Absorb</option>
+                            <option value="11">Water Absorb</option>
+                            <option value="12">Wonder Guard</option>
+                        </select>
+                    </div>
+                    <div class="typingbox flexrow">
+                        <div class="typing_3 normal"></div>
+                        <div class="typing_3 fighting"></div>
+                        <div class="typing_3 flying"></div>
+                        <div class="typing_3 poison"></div>
+                        <div class="typing_3 ground"></div>
+                        <div class="typing_3 rock"></div>
+                        <div class="typing_3 bug"></div>
+                        <div class="typing_3 ghost"></div>
+                        <div class="typing_3 steel"></div>
+                        <div class="typing_3 fire"></div>
+                        <div class="typing_3 water"></div>
+                        <div class="typing_3 grass"></div>
+                        <div class="typing_3 electric"></div>
+                        <div class="typing_3 psychic"></div>
+                        <div class="typing_3 ice"></div>
+                        <div class="typing_3 dragon"></div>
+                        <div class="typing_3 dark"></div>
+                    </div>
+                </div>
+
+                <div class="pokeone flexrow">
+                    <div class="imgbox flexrow">
+                        <img class="icones_4" src="./images/imicon.png">
+                        <div class="duotype flexcol">
+                            <div class="typez_4 normal" style="background-color: #b3b3b2 ;"></div>
+                            <div class="typez_4 fighting" style="background-color: #C03131 ;"></div>
+                            <div class="typez_4 flying" style="background-color: #98BDBF ;"></div>
+                            <div class="typez_4 poison" style="background-color: #AB55A2 ;"></div>
+                            <div class="typez_4 ground" style="background-color: #CEBB6D ;"></div>
+                            <div class="typez_4 rock" style="background-color: #BC9C5B ;"></div>
+                            <div class="typez_4 bug" style="background-color: #BCD059 ;"></div>
+                            <div class="typez_4 ghost" style="background-color: #5E7289 ;"></div>
+                            <div class="typez_4 steel" style="background-color: #AFB4BC ;"></div>
+                            <div class="typez_4 fire" style="background-color: #FB7A18 ;"></div>
+                            <div class="typez_4 water" style="background-color: #37B0BD ;"></div>
+                            <div class="typez_4 grass" style="background-color: #6FDB59 ;"></div>
+                            <div class="typez_4 electric" style="background-color: #E0C519 ;"></div>
+                            <div class="typez_4 psychic" style="background-color: #EC6CEC ;"></div>
+                            <div class="typez_4 ice" style="background-color: #9BDED9 ;"></div>
+                            <div class="typez_4 dragon" style="background-color: #729DD0 ;"></div>
+                            <div class="typez_4 dark" style="background-color: #656565 ;"></div>
+                        </div>
+                    </div>
+                    <div class="selectbox flexcol">
+                        <select name="pokemons" id="select-pokemons" placeholder="Pick a pokemon..." class="selectpoke_4">
+                            <option value="">None</option>
+                        </select>
+                        <select name="ability" id="" class="ability_4">
+                            <option value="">None</option>
+                            <option value="1">Dry Skin</option>
+                            <option value="2">Flash Fire</option>
+                            <option value="3">Heatproof</option>
+                            <option value="4">Levitate</option>
+                            <option value="5">Lightning Rod</option>
+                            <option value="6">Motor Drive</option>
+                            <option value="7">Sap Sipper</option>
+                            <option value="8">Storm Drain</option>
+                            <option value="9">Thick Fat</option>
+                            <option value="10">Volt Absorb</option>
+                            <option value="11">Water Absorb</option>
+                            <option value="12">Wonder Guard</option>
+                        </select>
+                    </div>
+                    <div class="typingbox flexrow">
+                        <div class="typing_4 normal"></div>
+                        <div class="typing_4 fighting"></div>
+                        <div class="typing_4 flying"></div>
+                        <div class="typing_4 poison"></div>
+                        <div class="typing_4 ground"></div>
+                        <div class="typing_4 rock"></div>
+                        <div class="typing_4 bug"></div>
+                        <div class="typing_4 ghost"></div>
+                        <div class="typing_4 steel"></div>
+                        <div class="typing_4 fire"></div>
+                        <div class="typing_4 water"></div>
+                        <div class="typing_4 grass"></div>
+                        <div class="typing_4 electric"></div>
+                        <div class="typing_4 psychic"></div>
+                        <div class="typing_4 ice"></div>
+                        <div class="typing_4 dragon"></div>
+                        <div class="typing_4 dark"></div>
+                    </div>
+                </div>
+                
+                
+                <div class="pokeone flexrow">
+                    <div class="imgbox flexrow">
+                        <img class="icones_5" src="./images/imicon.png">
+                        <div class="duotype flexcol">
+                            <div class="typez_5 normal" style="background-color: #b3b3b2 ;"></div>
+                            <div class="typez_5 fighting" style="background-color: #C03131 ;"></div>
+                            <div class="typez_5 flying" style="background-color: #98BDBF ;"></div>
+                            <div class="typez_5 poison" style="background-color: #AB55A2 ;"></div>
+                            <div class="typez_5 ground" style="background-color: #CEBB6D ;"></div>
+                            <div class="typez_5 rock" style="background-color: #BC9C5B ;"></div>
+                            <div class="typez_5 bug" style="background-color: #BCD059 ;"></div>
+                            <div class="typez_5 ghost" style="background-color: #5E7289 ;"></div>
+                            <div class="typez_5 steel" style="background-color: #AFB4BC ;"></div>
+                            <div class="typez_5 fire" style="background-color: #FB7A18 ;"></div>
+                            <div class="typez_5 water" style="background-color: #37B0BD ;"></div>
+                            <div class="typez_5 grass" style="background-color: #6FDB59 ;"></div>
+                            <div class="typez_5 electric" style="background-color: #E0C519 ;"></div>
+                            <div class="typez_5 psychic" style="background-color: #EC6CEC ;"></div>
+                            <div class="typez_5 ice" style="background-color: #9BDED9 ;"></div>
+                            <div class="typez_5 dragon" style="background-color: #729DD0 ;"></div>
+                            <div class="typez_5 dark" style="background-color: #656565 ;"></div>
+                        </div>
+                    </div>
+                    <div class="selectbox flexcol">
+                        <select name="pokemons" id="select-pokemons" placeholder="Pick a pokemon..." class="selectpoke_5">
+                            <option value="">None</option>
+                        </select>
+                        <select name="ability" id="" class="ability_5">
+                            <option value="">None</option>
+                            <option value="1">Dry Skin</option>
+                            <option value="2">Flash Fire</option>
+                            <option value="3">Heatproof</option>
+                            <option value="4">Levitate</option>
+                            <option value="5">Lightning Rod</option>
+                            <option value="6">Motor Drive</option>
+                            <option value="7">Sap Sipper</option>
+                            <option value="8">Storm Drain</option>
+                            <option value="9">Thick Fat</option>
+                            <option value="10">Volt Absorb</option>
+                            <option value="11">Water Absorb</option>
+                            <option value="12">Wonder Guard</option>
+                        </select>
+                    </div>
+                    <div class="typingbox flexrow">
+                        <div class="typing_5 normal"></div>
+                        <div class="typing_5 fighting"></div>
+                        <div class="typing_5 flying"></div>
+                        <div class="typing_5 poison"></div>
+                        <div class="typing_5 ground"></div>
+                        <div class="typing_5 rock"></div>
+                        <div class="typing_5 bug"></div>
+                        <div class="typing_5 ghost"></div>
+                        <div class="typing_5 steel"></div>
+                        <div class="typing_5 fire"></div>
+                        <div class="typing_5 water"></div>
+                        <div class="typing_5 grass"></div>
+                        <div class="typing_5 electric"></div>
+                        <div class="typing_5 psychic"></div>
+                        <div class="typing_5 ice"></div>
+                        <div class="typing_5 dragon"></div>
+                        <div class="typing_5 dark"></div>
+                    </div>
+                </div>
+                
+                <div class="pokeone flexrow">
+                    <div class="imgbox flexrow">
+                        <img class="icones_6" src="./images/imicon.png">
+                        <div class="duotype flexcol">
+                            <div class="typez_6 normal" style="background-color: #b3b3b2 ;"></div>
+                            <div class="typez_6 fighting" style="background-color: #C03131 ;"></div>
+                            <div class="typez_6 flying" style="background-color: #98BDBF ;"></div>
+                            <div class="typez_6 poison" style="background-color: #AB55A2 ;"></div>
+                            <div class="typez_6 ground" style="background-color: #CEBB6D ;"></div>
+                            <div class="typez_6 rock" style="background-color: #BC9C5B ;"></div>
+                            <div class="typez_6 bug" style="background-color: #BCD059 ;"></div>
+                            <div class="typez_6 ghost" style="background-color: #5E7289 ;"></div>
+                            <div class="typez_6 steel" style="background-color: #AFB4BC ;"></div>
+                            <div class="typez_6 fire" style="background-color: #FB7A18 ;"></div>
+                            <div class="typez_6 water" style="background-color: #37B0BD ;"></div>
+                            <div class="typez_6 grass" style="background-color: #6FDB59 ;"></div>
+                            <div class="typez_6 electric" style="background-color: #E0C519 ;"></div>
+                            <div class="typez_6 psychic" style="background-color: #EC6CEC ;"></div>
+                            <div class="typez_6 ice" style="background-color: #9BDED9 ;"></div>
+                            <div class="typez_6 dragon" style="background-color: #729DD0 ;"></div>
+                            <div class="typez_6 dark" style="background-color: #656565 ;"></div>
+                        </div>
+                    </div>
+                    <div class="selectbox flexcol">
+                        <select name="pokemons" id="select-pokemons" placeholder="Pick a pokemon..." class="selectpoke_6">
+                            <option value="">None</option>
+                        </select>
+                        <select name="ability" id="" class="ability_6">
+                            <option value="">None</option>
+                            <option value="1">Dry Skin</option>
+                            <option value="2">Flash Fire</option>
+                            <option value="3">Heatproof</option>
+                            <option value="4">Levitate</option>
+                            <option value="5">Lightning Rod</option>
+                            <option value="6">Motor Drive</option>
+                            <option value="7">Sap Sipper</option>
+                            <option value="8">Storm Drain</option>
+                            <option value="9">Thick Fat</option>
+                            <option value="10">Volt Absorb</option>
+                            <option value="11">Water Absorb</option>
+                            <option value="12">Wonder Guard</option>
+                        </select>
+                    </div>
+                    <div class="typingbox flexrow">
+                        <div class="typing_6 normal"></div>
+                        <div class="typing_6 fighting"></div>
+                        <div class="typing_6 flying"></div>
+                        <div class="typing_6 poison"></div>
+                        <div class="typing_6 ground"></div>
+                        <div class="typing_6 rock"></div>
+                        <div class="typing_6 bug"></div>
+                        <div class="typing_6 ghost"></div>
+                        <div class="typing_6 steel"></div>
+                        <div class="typing_6 fire"></div>
+                        <div class="typing_6 water"></div>
+                        <div class="typing_6 grass"></div>
+                        <div class="typing_6 electric"></div>
+                        <div class="typing_6 psychic"></div>
+                        <div class="typing_6 ice"></div>
+                        <div class="typing_6 dragon"></div>
+                        <div class="typing_6 dark"></div>
+                    </div>
+                </div>
+                <div class="results flexrow">
+                    <div class="firstbox flexrow"></div>
+                    <div class="secondbox flexcol"></div>
+                    <div class="thirdbox flexrow">
+                        <div class="result normal"></div>
+                        <div class="result fighting"></div>
+                        <div class="result flying"></div>
+                        <div class="result poison"></div>
+                        <div class="result ground"></div>
+                        <div class="result rock"></div>
+                        <div class="result bug"></div>
+                        <div class="result ghost"></div>
+                        <div class="result steel"></div>
+                        <div class="result fire"></div>
+                        <div class="result water"></div>
+                        <div class="result grass"></div>
+                        <div class="result electric"></div>
+                        <div class="result psychic"></div>
+                        <div class="result ice"></div>
+                        <div class="result dragon"></div>
+                        <div class="result dark"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+    <script src="script3.js"></script>
+    <script src="script4.js"></script>
+    <script src="script5.js"></script>
+    <script src="script6.js"></script>
+
+
+</body>
+</html>

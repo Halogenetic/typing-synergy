@@ -1,0 +1,211 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background-image: url(./images/background-sky.jpg);
+    background-size: cover;
+}
+
+.flexrow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexcol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.box {
+    width: 80%;
+    height: 80%;
+}
+
+.typelist {
+    width: 100%;
+    height: 12.5%;
+
+}
+
+.box1 {
+    width: 33%;
+    height: 100%;
+}
+
+.types {
+    width: 67%;
+    height: 100%;
+
+}
+
+.type {
+    width: 5.8823529411764%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    text-orientation: mixed;
+    writing-mode: vertical-rl;
+    text-align: center;
+    box-sizing: border-box;
+    color: white;
+    font-weight: 700;
+    background-image: url(./images/fond-noir-25.png);
+    background-size: 50% 100%;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    border: 1px grey solid;
+
+}
+
+.pokemons {
+    width: 100%;
+    height: 87.5%;
+}
+
+.pokeone {
+    width: 100%;
+    height: 14.2857%;
+    box-sizing: border-box;
+
+}
+
+.imgbox {
+    width: 13%;
+    height: 100%;
+    background-color: white;
+    border: 1px grey solid;
+
+    
+    
+}
+
+.selectbox {
+    width: 20%;
+    height: 100%;
+}
+
+
+.typingbox {
+    width: 67%;
+    height: 100%;
+}
+
+.img {
+    object-fit: contain;
+}
+.duotype {
+    width: 50%;
+    height: 100%;
+}
+
+
+
+
+
+
+.typez, .typez_2, .typez_3, .typez_4, .typez_5, .typez_6 {
+    width: 100%;
+    height: 50%;
+    text-transform: uppercase;
+    text-align: center;
+    box-sizing: border-box;
+    color: white;
+    font-weight: 700;
+    background-image: url(./images/fond-noir-25.png);
+    background-size: 100% 50%;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+}
+
+.typez:empty, .typez_2:empty, .typez_3:empty, .typez_4:empty, .typez_5:empty, .typez_6:empty {
+    display: none;
+  }
+
+
+.typing, .typing_2, .typing_3, .typing_4, .typing_5, .typing_6 {
+    width: 5.8823529411764%;
+    height: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px grey solid;
+}
+
+.selectpoke, .selectpoke_2, .selectpoke_3, .selectpoke_4, .selectpoke_5, .selectpoke_6 {
+    width: 100%;
+    height: 50%;
+    text-transform: capitalize;
+    font-size: 25px;
+
+}
+
+.ability, .ability_2, .ability_3, .ability_4, .ability_5, .ability_6 {
+    width: 100%;
+    height: 50%;
+    text-transform: capitalize;
+    font-size: 25px;
+
+
+}
+
+.icones, .icones_2, .icones_3, .icones_4, .icones_5, .icones_6 {
+    width: 50%;
+    height: 100%;
+}
+
+.results {
+    width: 100%;
+    height: 14.2857%;
+    box-sizing: border-box;
+
+}
+
+.firstbox {
+    width: 13%;
+    height: 100%;
+}
+
+.secondbox {
+    width: 20%;
+    height: 100%;
+}
+
+.thirdbox {
+    width: 67%;
+    height: 100%;
+}
+
+.result {
+    width: 5.8823529411764%;
+    height: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px grey solid;
+}
