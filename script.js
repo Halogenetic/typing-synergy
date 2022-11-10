@@ -13,8 +13,12 @@ let storingArray = []
 //         });
 //     });
 
+setTimeout(() => {
+    new Selectr(theselect)
+  }, "500")
+
 // Function to create options (pokemons names + index in value) with an API
-const optionlist = () => {
+const optionlist = async () => {
         fetch("https://pokeapi.co/api/v2/pokemon-species?offset=0&limit=644")
           .then((response) => {
             if (!response.ok) {

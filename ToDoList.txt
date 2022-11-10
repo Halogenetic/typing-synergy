@@ -1,4 +1,6 @@
 actualiser les results quand none
 selectize ou ajouter les rotoms à leur place
 images pour les results
-logo en absolute ?
+logo en absolute 
+créer dynamiquement les rotoms dans un timeout et insertbefore
+créer un nouveau github
