@@ -4,3 +4,4 @@ images pour les results
 logo en absolute 
 créer dynamiquement les rotoms dans un timeout et insertbefore
 créer un nouveau github
+kindra dryskin
