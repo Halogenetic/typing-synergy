@@ -8,9 +8,9 @@ let storingArray_6 = []
 
 
 
-setTimeout(() => {
-    new Selectr(theselect_6)
-  }, "500")
+// setTimeout(() => {
+//     new Selectr(theselect_6)
+//   }, "500")
 
 
 
