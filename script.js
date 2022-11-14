@@ -15,6 +15,7 @@ let storingArray = []
 
 setTimeout(() => {
     new Selectr(theselect)
+    new Selectr(theability)
   }, "500")
 
 // Function to create options (pokemons names + index in value) with an API

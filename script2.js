@@ -10,6 +10,7 @@ let storingArray_2 = []
 
 setTimeout(() => {
     new Selectr(theselect_2)
+    new Selectr(theability_2)
   }, "500")
 
 
