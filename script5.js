@@ -10,9 +10,19 @@ let storingArray_5 = []
 
 
 setTimeout(() => {
+    const allrotoms = (`
+    <option value="rotom-heat">Rotom-Heat</option>
+    <option value="rotom-wash">Rotom-Wash</option>
+    <option value="rotom-frost">Rotom-Frost</option>
+    <option value="rotom-fan">Rotom-Fan</option>
+    <option value="rotom-mow">Rotom-Mow</option>`)
+    theselect_5.insertAdjacentHTML('beforeend', allrotoms)
+    let m = 480
+    for (i=645; i<650; i++) {
+    theselect_5.insertBefore(theselect_5.children[i], theselect_5.children[m])
+    m++}
     new Selectr(theselect_5)
     new Selectr(theability_5)
-
   }, "500")
 
 
