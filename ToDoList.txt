@@ -4,6 +4,7 @@ logo en absolute
 créer un nouveau github
 kingdra dryskin
 responsive ()
+async-await instead of settimeout
 mega boucle
 functions refactored
 modules

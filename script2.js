@@ -471,6 +471,10 @@ const fullTyping_2 = () => {
                         cell.style.backgroundColor = "#52A242"
                         cell.textContent=('¼')
                     }
+                    else if (cell.textContent.includes("0.325")) {
+                        cell.style.backgroundColor = "#52A242"
+                        cell.textContent=('¹³⁄₄₀')
+                    }
                     else if (cell.textContent.includes("4") && cell.textContent.length == 1) {
                         cell.style.backgroundColor = "#8F2424"
                     }
