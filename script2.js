@@ -82,8 +82,8 @@ type.innerHTML = ''
                                 type.style.height = "50%";
                                 type.style.paddingTop = "15%";}}
                        else if ((data_2.types[0].type.name) == "normal" && (data_2.types[1].type.name) == "fairy") {
-                        if (type.classList.contains("water")) {
-                        type.innerHTML = "water"
+                        if (type.classList.contains("normal")) {
+                        type.innerHTML = "normal"
                         type.style.height = "100%";
                         type.style.paddingTop = "40%"; }}
 
@@ -207,7 +207,7 @@ const fullTyping_2 = () => {
                             })
                         } }
                     else if ((data_2.types[0].type.name) == "normal" && (data_2.types[1].type.name) == "fairy") {
-                        {t_2 = 10}
+                        {t_2 = 0}
                         {
                             typingcells_2.forEach(cell => {
                                 cell.innerHTML=(typingArray_2[t_2][c_2])

@@ -19,4 +19,6 @@ selectize ou ajouter les rotoms à leur place
 kingdra dryskin
 actualiser les results quand none
 results dépendent du nombre de poké
+jigglytuff, wigglytuff, azurill
+
 
