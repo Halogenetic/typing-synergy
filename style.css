@@ -234,3 +234,14 @@ body {
     background-color: white;
     border: 1px grey solid;
 }
+
+.logodiv {
+    position: absolute;
+    background-image: url("./images/kriliinlogo3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30vw;
+    height: 21vh;
+    z-index: -1;
+    margin-left: 6vw;
+}
