@@ -3,7 +3,6 @@ images pour les results
 logo en absolute 
 créer un nouveau github
 responsive ()
-async-await instead of settimeout
 mega boucle
 functions refactored
 modules
@@ -20,5 +19,7 @@ kingdra dryskin
 actualiser les results quand none
 results dépendent du nombre de poké
 jigglytuff, wigglytuff, azurill
+async-await instead of settimeout
+
 
 

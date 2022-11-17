@@ -6,31 +6,9 @@ let theability_2 = document.querySelector(".ability_2")
 
 let storingArray_2 = []
 
-
-
-
-setTimeout(() => {
-    const allrotoms = (`
-    <option value="rotom-heat">Rotom-Heat</option>
-    <option value="rotom-wash">Rotom-Wash</option>
-    <option value="rotom-frost">Rotom-Frost</option>
-    <option value="rotom-fan">Rotom-Fan</option>
-    <option value="rotom-mow">Rotom-Mow</option>`)
-    theselect_2.insertAdjacentHTML('beforeend', allrotoms)
-    let m = 480
-    for (i=645; i<650; i++) {
-    theselect_2.insertBefore(theselect_2.children[i], theselect_2.children[m])
-    m++}
-    new Selectr(theselect_2)
-    new Selectr(theability_2)
-  }, "500")
-
-
-
-
 // Function to create options (pokemons names + index in value) with an API
-const optionlist_2 = () => {
-        fetch("https://pokeapi.co/api/v2/pokemon-species?offset=0&limit=644")
+const optionlist_2 = async () => {
+        await fetch("https://pokeapi.co/api/v2/pokemon-species?offset=0&limit=644")
           .then((response) => {
             if (!response.ok) {
               alert("Error");
@@ -48,6 +26,20 @@ const optionlist_2 = () => {
 
                 i_2++
             }))
+            const allrotoms = (`
+            <option value="rotom-heat">Rotom-Heat</option>
+            <option value="rotom-wash">Rotom-Wash</option>
+            <option value="rotom-frost">Rotom-Frost</option>
+            <option value="rotom-fan">Rotom-Fan</option>
+            <option value="rotom-mow">Rotom-Mow</option>`)
+            theselect_2.insertAdjacentHTML('beforeend', allrotoms)
+            let m = 480
+            for (i=645; i<650; i++) {
+            theselect_2.insertBefore(theselect_2.children[i], theselect_2.children[m])
+            m++}
+            
+            new Selectr(theselect_2)
+            new Selectr(theability_2)
       }
 
 optionlist_2();

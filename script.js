@@ -6,31 +6,9 @@ let theability = document.querySelector(".ability")
 
 let storingArray = []
 
-// // Function to transform select in selectize (impossible to querySelect)
-//  $(document).ready(function () {
-//         $('select').selectize({
-//             sortField: 'text'
-//         });
-//     });
-setTimeout(() => {
-    const allrotoms = (`
-    <option value="rotom-heat">Rotom-Heat</option>
-    <option value="rotom-wash">Rotom-Wash</option>
-    <option value="rotom-frost">Rotom-Frost</option>
-    <option value="rotom-fan">Rotom-Fan</option>
-    <option value="rotom-mow">Rotom-Mow</option>`)
-    theselect.insertAdjacentHTML('beforeend', allrotoms)
-    let m = 480
-    for (i=645; i<650; i++) {
-    theselect.insertBefore(theselect.children[i], theselect.children[m])
-    m++}
-
-    new Selectr(theselect)
-    new Selectr(theability)
-  }, "500")
 // Function to create options (pokemons names + index in value) with an API
 const optionlist = async () => {
-        fetch("https://pokeapi.co/api/v2/pokemon-species?offset=0&limit=644")
+        await fetch("https://pokeapi.co/api/v2/pokemon-species?offset=0&limit=644")
           .then((response) => {
             if (!response.ok) {
               alert("Error");
@@ -48,6 +26,20 @@ const optionlist = async () => {
 
                 i++
             }))
+                const allrotoms = (`
+    <option value="rotom-heat">Rotom-Heat</option>
+    <option value="rotom-wash">Rotom-Wash</option>
+    <option value="rotom-frost">Rotom-Frost</option>
+    <option value="rotom-fan">Rotom-Fan</option>
+    <option value="rotom-mow">Rotom-Mow</option>`)
+    theselect.insertAdjacentHTML('beforeend', allrotoms)
+    let m = 480
+    for (i=645; i<650; i++) {
+    theselect.insertBefore(theselect.children[i], theselect.children[m])
+    m++}
+
+    new Selectr(theselect)
+    new Selectr(theability)
       }
 
 optionlist();
