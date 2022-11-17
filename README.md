@@ -20,8 +20,12 @@ As part of the BeCode Brussels 2022/2023 training and for personnal purpose
 - writing-mode : vertical-rl
 - element:empty {}
 - API fetch
-- DOM manipulation with data
+- DOM manipulation and insert data
 - Analyzing functions & Loop functions
 - Storing data in Arrays
 - Playing with different select event listeners
+- Async functions with await fetch to work on the options created dynamically
+- insertAdjacentHTML to insert an HTML block directly
+- Selectr to replace the Selectize
+- Logo added in absolute with responsive properties
 
