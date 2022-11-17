@@ -217,10 +217,26 @@ for (const value of a0r) {
   a0res += value;
 }
 
-if (a0r.length == 0) {
+if (a0r.length == 1) {
+    a0res = a0res * 6
+}
+else if (a0r.length == 2) {
+    a0res = a0res * 3
+}
+else if (a0r.length == 3) {
+    a0res = a0res * 2
+}
+else if (a0r.length == 4) {
+    a0res = a0res * 1.5
+}
+else if (a0r.length == 5) {
+    a0res = a0res * 1.2
+}
+else if (a0r.length == 0) {
     myresults[0].style.backgroundColor="white"
 }
-else if (a0res > 8) {
+
+if (a0res > 8) {
     myresults[0].style.backgroundColor="#52A242"
 }
 else if (a0res > 6) {
@@ -229,10 +245,10 @@ else if (a0res > 6) {
 else if (a0res == 6) {
     myresults[0].style.backgroundColor="#C03131"
 }
-else if (a0res < 4) {
+else if (a0res < 4 && a0r.length !== 0) {
     myresults[0].style.backgroundColor="#8F2424"
 }
-else {
+else if (a0r.length !== 0){
     myresults[0].style.backgroundColor="#C03131"
 }
 
@@ -255,16 +271,31 @@ a1.forEach(element => {
     {a1r.push(2)}
 })
 
-console.log(a1)
 
 for (const value of a1r) {
   a1res += value;
 }
 
-if (a1r.length == 0) {
+if (a1r.length == 1) {
+    a1res = a1res * 6
+}
+else if (a1r.length == 2) {
+    a1res = a1res * 3
+}
+else if (a1r.length == 3) {
+    a1res = a1res * 2
+}
+else if (a1r.length == 4) {
+    a1res = a1res * 1.5
+}
+else if (a1r.length == 5) {
+    a1res = a1res * 1.2
+}
+else if (a1r.length == 0) {
     myresults[1].style.backgroundColor="white"
 }
-else if (a1res > 8) {
+
+if (a1res > 8) {
     myresults[1].style.backgroundColor="#52A242"
 }
 else if (a1res > 6) {
@@ -273,10 +304,10 @@ else if (a1res > 6) {
 else if (a1res == 6) {
     myresults[1].style.backgroundColor="#C03131"
 }
-else if (a1res < 4) {
+else if (a1res < 4 && a1r.length !== 0) {
     myresults[1].style.backgroundColor="#8F2424"
 }
-else {
+else if (a1r.length !== 0){
     myresults[1].style.backgroundColor="#C03131"
 }
 
@@ -304,10 +335,26 @@ for (const value of a2r) {
   a2res += value;
 }
 
-if (a2r.length == 0) {
+if (a2r.length == 1) {
+    a2res = a2res * 6
+}
+else if (a2r.length == 2) {
+    a2res = a2res * 3
+}
+else if (a2r.length == 3) {
+    a2res = a2res * 2
+}
+else if (a2r.length == 4) {
+    a2res = a2res * 1.5
+}
+else if (a2r.length == 5) {
+    a2res = a2res * 1.2
+}
+else if (a2r.length == 0) {
     myresults[2].style.backgroundColor="white"
 }
-else if (a2res > 8) {
+
+if (a2res > 8) {
     myresults[2].style.backgroundColor="#52A242"
 }
 else if (a2res > 6) {
@@ -316,13 +363,12 @@ else if (a2res > 6) {
 else if (a2res == 6) {
     myresults[2].style.backgroundColor="#C03131"
 }
-else if (a2res < 4) {
+else if (a2res < 4 && a2r.length !== 0) {
     myresults[2].style.backgroundColor="#8F2424"
 }
-else {
+else if (a2r.length !== 0){
     myresults[2].style.backgroundColor="#C03131"
 }
-
 
 a3.forEach(element => {
     if (element == 1)
@@ -348,10 +394,26 @@ for (const value of a3r) {
   a3res += value;
 }
 
-if (a3r.length == 0) {
+if (a3r.length == 1) {
+    a3res = a3res * 6
+}
+else if (a3r.length == 2) {
+    a3res = a3res * 3
+}
+else if (a3r.length == 3) {
+    a3res = a3res * 2
+}
+else if (a3r.length == 4) {
+    a3res = a3res * 1.5
+}
+else if (a3r.length == 5) {
+    a3res = a3res * 1.2
+}
+else if (a3r.length == 0) {
     myresults[3].style.backgroundColor="white"
 }
-else if (a3res > 8) {
+
+if (a3res > 8) {
     myresults[3].style.backgroundColor="#52A242"
 }
 else if (a3res > 6) {
@@ -360,10 +422,10 @@ else if (a3res > 6) {
 else if (a3res == 6) {
     myresults[3].style.backgroundColor="#C03131"
 }
-else if (a3res < 4) {
+else if (a3res < 4 && a3r.length !== 0) {
     myresults[3].style.backgroundColor="#8F2424"
 }
-else {
+else if (a3r.length !== 0){
     myresults[3].style.backgroundColor="#C03131"
 }
 
@@ -391,10 +453,26 @@ for (const value of a4r) {
   a4res += value;
 }
 
-if (a4r.length == 0) {
+if (a4r.length == 1) {
+    a4res = a4res * 6
+}
+else if (a4r.length == 2) {
+    a4res = a4res * 3
+}
+else if (a4r.length == 3) {
+    a4res = a4res * 2
+}
+else if (a4r.length == 4) {
+    a4res = a4res * 1.5
+}
+else if (a4r.length == 5) {
+    a4res = a4res * 1.2
+}
+else if (a4r.length == 0) {
     myresults[4].style.backgroundColor="white"
 }
-else if (a4res > 8) {
+
+if (a4res > 8) {
     myresults[4].style.backgroundColor="#52A242"
 }
 else if (a4res > 6) {
@@ -403,10 +481,10 @@ else if (a4res > 6) {
 else if (a4res == 6) {
     myresults[4].style.backgroundColor="#C03131"
 }
-else if (a4res < 4) {
+else if (a4res < 4 && a4r.length !== 0) {
     myresults[4].style.backgroundColor="#8F2424"
 }
-else {
+else if (a4r.length !== 0){
     myresults[4].style.backgroundColor="#C03131"
 }
 
@@ -435,10 +513,26 @@ for (const value of a5r) {
   a5res += value;
 }
 
-if (a5r.length == 0) {
+if (a5r.length == 1) {
+    a5res = a5res * 6
+}
+else if (a5r.length == 2) {
+    a5res = a5res * 3
+}
+else if (a5r.length == 3) {
+    a5res = a5res * 2
+}
+else if (a5r.length == 4) {
+    a5res = a5res * 1.5
+}
+else if (a5r.length == 5) {
+    a5res = a5res * 1.2
+}
+else if (a5r.length == 0) {
     myresults[5].style.backgroundColor="white"
 }
-else if (a5res > 8) {
+
+if (a5res > 8) {
     myresults[5].style.backgroundColor="#52A242"
 }
 else if (a5res > 6) {
@@ -447,10 +541,10 @@ else if (a5res > 6) {
 else if (a5res == 6) {
     myresults[5].style.backgroundColor="#C03131"
 }
-else if (a5res < 4) {
+else if (a5res < 4 && a5r.length !== 0) {
     myresults[5].style.backgroundColor="#8F2424"
 }
-else {
+else if (a5r.length !== 0){
     myresults[5].style.backgroundColor="#C03131"
 }
 
@@ -479,10 +573,26 @@ for (const value of a6r) {
   a6res += value;
 }
 
-if (a6r.length == 0) {
+if (a6r.length == 1) {
+    a6res = a6res * 6
+}
+else if (a6r.length == 2) {
+    a6res = a6res * 3
+}
+else if (a6r.length == 3) {
+    a6res = a6res * 2
+}
+else if (a6r.length == 4) {
+    a6res = a6res * 1.5
+}
+else if (a6r.length == 5) {
+    a6res = a6res * 1.2
+}
+else if (a6r.length == 0) {
     myresults[6].style.backgroundColor="white"
 }
-else if (a6res > 8) {
+
+if (a6res > 8) {
     myresults[6].style.backgroundColor="#52A242"
 }
 else if (a6res > 6) {
@@ -491,10 +601,10 @@ else if (a6res > 6) {
 else if (a6res == 6) {
     myresults[6].style.backgroundColor="#C03131"
 }
-else if (a6res < 4) {
+else if (a6res < 4 && a6r.length !== 0) {
     myresults[6].style.backgroundColor="#8F2424"
 }
-else {
+else if (a6r.length !== 0){
     myresults[6].style.backgroundColor="#C03131"
 }
 
@@ -523,10 +633,26 @@ for (const value of a7r) {
   a7res += value;
 }
 
-if (a7r.length == 0) {
+if (a7r.length == 1) {
+    a7res = a7res * 6
+}
+else if (a7r.length == 2) {
+    a7res = a7res * 3
+}
+else if (a7r.length == 3) {
+    a7res = a7res * 2
+}
+else if (a7r.length == 4) {
+    a7res = a7res * 1.5
+}
+else if (a7r.length == 5) {
+    a7res = a7res * 1.2
+}
+else if (a7r.length == 0) {
     myresults[7].style.backgroundColor="white"
 }
-else if (a7res > 8) {
+
+if (a7res > 8) {
     myresults[7].style.backgroundColor="#52A242"
 }
 else if (a7res > 6) {
@@ -535,10 +661,10 @@ else if (a7res > 6) {
 else if (a7res == 6) {
     myresults[7].style.backgroundColor="#C03131"
 }
-else if (a7res < 4) {
+else if (a7res < 4 && a7r.length !== 0) {
     myresults[7].style.backgroundColor="#8F2424"
 }
-else {
+else if (a7r.length !== 0){
     myresults[7].style.backgroundColor="#C03131"
 }
 
@@ -567,10 +693,26 @@ for (const value of a8r) {
   a8res += value;
 }
 
-if (a8r.length == 0) {
+if (a8r.length == 1) {
+    a8res = a8res * 6
+}
+else if (a8r.length == 2) {
+    a8res = a8res * 3
+}
+else if (a8r.length == 3) {
+    a8res = a8res * 2
+}
+else if (a8r.length == 4) {
+    a8res = a8res * 1.5
+}
+else if (a8r.length == 5) {
+    a8res = a8res * 1.2
+}
+else if (a8r.length == 0) {
     myresults[8].style.backgroundColor="white"
 }
-else if (a8res > 8) {
+
+if (a8res > 8) {
     myresults[8].style.backgroundColor="#52A242"
 }
 else if (a8res > 6) {
@@ -579,10 +721,10 @@ else if (a8res > 6) {
 else if (a8res == 6) {
     myresults[8].style.backgroundColor="#C03131"
 }
-else if (a8res < 4) {
+else if (a8res < 4 && a8r.length !== 0) {
     myresults[8].style.backgroundColor="#8F2424"
 }
-else {
+else if (a8r.length !== 0){
     myresults[8].style.backgroundColor="#C03131"
 }
 
@@ -610,10 +752,26 @@ for (const value of a9r) {
   a9res += value;
 }
 
-if (a9r.length == 0) {
+if (a9r.length == 1) {
+    a9res = a9res * 6
+}
+else if (a9r.length == 2) {
+    a9res = a9res * 3
+}
+else if (a9r.length == 3) {
+    a9res = a9res * 2
+}
+else if (a9r.length == 4) {
+    a9res = a9res * 1.5
+}
+else if (a9r.length == 5) {
+    a9res = a9res * 1.2
+}
+else if (a9r.length == 0) {
     myresults[9].style.backgroundColor="white"
 }
-else if (a9res > 8) {
+
+if (a9res > 8) {
     myresults[9].style.backgroundColor="#52A242"
 }
 else if (a9res > 6) {
@@ -622,10 +780,10 @@ else if (a9res > 6) {
 else if (a9res == 6) {
     myresults[9].style.backgroundColor="#C03131"
 }
-else if (a9res < 4) {
+else if (a9res < 4 && a9r.length !== 0) {
     myresults[9].style.backgroundColor="#8F2424"
 }
-else {
+else if (a9r.length !== 0){
     myresults[9].style.backgroundColor="#C03131"
 }
 
@@ -653,10 +811,26 @@ for (const value of a10r) {
   a10res += value;
 }
 
-if (a10r.length == 0) {
+if (a10r.length == 1) {
+    a10res = a10res * 6
+}
+else if (a10r.length == 2) {
+    a10res = a10res * 3
+}
+else if (a10r.length == 3) {
+    a10res = a10res * 2
+}
+else if (a10r.length == 4) {
+    a10res = a10res * 1.5
+}
+else if (a10r.length == 5) {
+    a10res = a10res * 1.2
+}
+else if (a10r.length == 0) {
     myresults[10].style.backgroundColor="white"
 }
-else if (a10res > 8) {
+
+if (a10res > 8) {
     myresults[10].style.backgroundColor="#52A242"
 }
 else if (a10res > 6) {
@@ -665,10 +839,10 @@ else if (a10res > 6) {
 else if (a10res == 6) {
     myresults[10].style.backgroundColor="#C03131"
 }
-else if (a10res < 4) {
+else if (a10res < 4 && a10r.length !== 0) {
     myresults[10].style.backgroundColor="#8F2424"
 }
-else {
+else if (a10r.length !== 0){
     myresults[10].style.backgroundColor="#C03131"
 }
 
@@ -697,10 +871,26 @@ for (const value of a11r) {
   a11res += value;
 }
 
-if (a11r.length == 0) {
+if (a11r.length == 1) {
+    a11res = a11res * 6
+}
+else if (a11r.length == 2) {
+    a11res = a11res * 3
+}
+else if (a11r.length == 3) {
+    a11res = a11res * 2
+}
+else if (a11r.length == 4) {
+    a11res = a11res * 1.5
+}
+else if (a11r.length == 5) {
+    a11res = a11res * 1.2
+}
+else if (a11r.length == 0) {
     myresults[11].style.backgroundColor="white"
 }
-else if (a11res > 8) {
+
+if (a11res > 8) {
     myresults[11].style.backgroundColor="#52A242"
 }
 else if (a11res > 6) {
@@ -709,10 +899,10 @@ else if (a11res > 6) {
 else if (a11res == 6) {
     myresults[11].style.backgroundColor="#C03131"
 }
-else if (a11res < 4) {
+else if (a11res < 4 && a11r.length !== 0) {
     myresults[11].style.backgroundColor="#8F2424"
 }
-else {
+else if (a11r.length !== 0){
     myresults[11].style.backgroundColor="#C03131"
 }
 
@@ -740,10 +930,26 @@ for (const value of a12r) {
   a12res += value;
 }
 
-if (a12r.length == 0) {
+if (a12r.length == 1) {
+    a12res = a12res * 6
+}
+else if (a12r.length == 2) {
+    a12res = a12res * 3
+}
+else if (a12r.length == 3) {
+    a12res = a12res * 2
+}
+else if (a12r.length == 4) {
+    a12res = a12res * 1.5
+}
+else if (a12r.length == 5) {
+    a12res = a12res * 1.2
+}
+else if (a12r.length == 0) {
     myresults[12].style.backgroundColor="white"
 }
-else if (a12res > 8) {
+
+if (a12res > 8) {
     myresults[12].style.backgroundColor="#52A242"
 }
 else if (a12res > 6) {
@@ -752,10 +958,10 @@ else if (a12res > 6) {
 else if (a12res == 6) {
     myresults[12].style.backgroundColor="#C03131"
 }
-else if (a12res < 4) {
+else if (a12res < 4 && a12r.length !== 0) {
     myresults[12].style.backgroundColor="#8F2424"
 }
-else {
+else if (a12r.length !== 0){
     myresults[12].style.backgroundColor="#C03131"
 }
 
@@ -784,10 +990,26 @@ for (const value of a13r) {
   a13res += value;
 }
 
-if (a13r.length == 0) {
+if (a13r.length == 1) {
+    a13res = a13res * 6
+}
+else if (a13r.length == 2) {
+    a13res = a13res * 3
+}
+else if (a13r.length == 3) {
+    a13res = a13res * 2
+}
+else if (a13r.length == 4) {
+    a13res = a13res * 1.5
+}
+else if (a13r.length == 5) {
+    a13res = a13res * 1.2
+}
+else if (a13r.length == 0) {
     myresults[13].style.backgroundColor="white"
 }
-else if (a13res > 8) {
+
+if (a13res > 8) {
     myresults[13].style.backgroundColor="#52A242"
 }
 else if (a13res > 6) {
@@ -796,10 +1018,10 @@ else if (a13res > 6) {
 else if (a13res == 6) {
     myresults[13].style.backgroundColor="#C03131"
 }
-else if (a13res < 4) {
+else if (a13res < 4 && a13r.length !== 0) {
     myresults[13].style.backgroundColor="#8F2424"
 }
-else {
+else if (a13r.length !== 0){
     myresults[13].style.backgroundColor="#C03131"
 }
 
@@ -828,10 +1050,26 @@ for (const value of a14r) {
   a14res += value;
 }
 
-if (a14r.length == 0) {
+if (a14r.length == 1) {
+    a14res = a14res * 6
+}
+else if (a14r.length == 2) {
+    a14res = a14res * 3
+}
+else if (a14r.length == 3) {
+    a14res = a14res * 2
+}
+else if (a14r.length == 4) {
+    a14res = a14res * 1.5
+}
+else if (a14r.length == 5) {
+    a14res = a14res * 1.2
+}
+else if (a14r.length == 0) {
     myresults[14].style.backgroundColor="white"
 }
-else if (a14res > 8) {
+
+if (a14res > 8) {
     myresults[14].style.backgroundColor="#52A242"
 }
 else if (a14res > 6) {
@@ -840,10 +1078,10 @@ else if (a14res > 6) {
 else if (a14res == 6) {
     myresults[14].style.backgroundColor="#C03131"
 }
-else if (a14res < 4) {
+else if (a14res < 4 && a14r.length !== 0) {
     myresults[14].style.backgroundColor="#8F2424"
 }
-else {
+else if (a14r.length !== 0){
     myresults[14].style.backgroundColor="#C03131"
 }
 
@@ -871,10 +1109,26 @@ for (const value of a15r) {
   a15res += value;
 }
 
-if (a15r.length == 0) {
+if (a15r.length == 1) {
+    a15res = a15res * 6
+}
+else if (a15r.length == 2) {
+    a15res = a15res * 3
+}
+else if (a15r.length == 3) {
+    a15res = a15res * 2
+}
+else if (a15r.length == 4) {
+    a15res = a15res * 1.5
+}
+else if (a15r.length == 5) {
+    a15res = a15res * 1.2
+}
+else if (a15r.length == 0) {
     myresults[15].style.backgroundColor="white"
 }
-else if (a15res > 8) {
+
+if (a15res > 8) {
     myresults[15].style.backgroundColor="#52A242"
 }
 else if (a15res > 6) {
@@ -883,10 +1137,10 @@ else if (a15res > 6) {
 else if (a15res == 6) {
     myresults[15].style.backgroundColor="#C03131"
 }
-else if (a15res < 4) {
+else if (a15res < 4 && a15r.length !== 0) {
     myresults[15].style.backgroundColor="#8F2424"
 }
-else {
+else if (a15r.length !== 0){
     myresults[15].style.backgroundColor="#C03131"
 }
 
@@ -915,10 +1169,26 @@ for (const value of a16r) {
   a16res += value;
 }
 
-if (a16r.length == 0) {
+if (a16r.length == 1) {
+    a16res = a16res * 6
+}
+else if (a16r.length == 2) {
+    a16res = a16res * 3
+}
+else if (a16r.length == 3) {
+    a16res = a16res * 2
+}
+else if (a16r.length == 4) {
+    a16res = a16res * 1.5
+}
+else if (a16r.length == 5) {
+    a16res = a16res * 1.2
+}
+else if (a16r.length == 0) {
     myresults[16].style.backgroundColor="white"
 }
-else if (a16res > 8) {
+
+if (a16res > 8) {
     myresults[16].style.backgroundColor="#52A242"
 }
 else if (a16res > 6) {
@@ -927,12 +1197,11 @@ else if (a16res > 6) {
 else if (a16res == 6) {
     myresults[16].style.backgroundColor="#C03131"
 }
-else if (a16res < 4) {
+else if (a16res < 4 && a16r.length !== 0) {
     myresults[16].style.backgroundColor="#8F2424"
 }
-else {
+else if (a16r.length !== 0){
     myresults[16].style.backgroundColor="#C03131"
 }
 
-console.log(storingArray)
 }

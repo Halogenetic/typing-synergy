@@ -504,6 +504,9 @@ const fullTyping = () => {
     typingcells.forEach(cell => {
         cell.style.backgroundColor = "white"
         storingArray = []
+
+        fkinres();
+
     })}
 }
     

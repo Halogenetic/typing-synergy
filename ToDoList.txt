@@ -1,8 +1,7 @@
-actualiser les results quand none
+cross 1 not working / cross 2 working only if no results
 images pour les results
 logo en absolute 
 créer un nouveau github
-kingdra dryskin
 responsive ()
 async-await instead of settimeout
 mega boucle
@@ -17,3 +16,7 @@ modules
 done =
 créer dynamiquement les rotoms dans un timeout et insertbefore
 selectize ou ajouter les rotoms à leur place
+kingdra dryskin
+actualiser les results quand none
+results dépendent du nombre de poké
+
